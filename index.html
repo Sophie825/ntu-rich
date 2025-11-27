@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>RICH 資源整合平台</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <!-- Top bar -->
+    <header class="top-bar">
+      <div class="top-bar-main">
+        <div class="logo-box">
+          📚 
+        </div>
+        <div class="title-group">
+          <div class="site-title">RICH 資源整合平台</div>
+          <div class="site-subtitle">探索並發現你需要的各類資源</div>
+        </div>
+
+        <!-- 聯繫我們（mailto） -->
+        <a
+          class="contact-link"
+          href="mailto:yourname@school.edu.tw?subject=RICH%20資源平台意見回饋"
+        >
+          聯繫我們
+        </a>
+      </div>
+    </header>
+
+    <!-- Search + Filter area -->
+    <section class="search-filter-row">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" placeholder="搜尋資源…" />
+      </div>
+
+      <nav class="category-bar">
+        <button class="category-pill active">全部</button>
+        <button class="category-pill">學業類</button>
+        <button class="category-pill">活動類</button>
+        <button class="category-pill">自我精進</button>
+        <button class="category-pill">生活類</button>
+        <button class="category-pill">職涯規劃</button>
+        <button class="category-pill">諮詢類</button>
+      </nav>
+    </section>
+
+    <!-- Result header -->
+    <div class="result-header">
+      <span class="icon">✨</span>
+      <span>找到 <span class="result-count">18</span> 項資源</span>
+    </div>
+
+    <!-- Card grid -->
+    <main class="card-grid">
+
+      <!-- 其餘卡片 -->
+    </main>
+  </div>
+<script src="data/resources.js"></script>
+<script src="scripts/app.js"></script>
+</body>
+</html>
